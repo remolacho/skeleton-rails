@@ -30,3 +30,7 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# Ingore IDE folder
+/.idea
+/.vscode
