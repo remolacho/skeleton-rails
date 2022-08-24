@@ -6,6 +6,8 @@ development:
   DB_PORT: 5432
   JWT_PASSWORD: test123
   API_KEY: ''
+  APPLICATION_NAME: "skeleton-rails"
+  API_VERSION: "v1"
 test:
   DB_HOSTNAME: localhost
   DB_USERNAME: postgres
