@@ -40,6 +40,12 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'pry', '~> 0.13.0'
+  gem 'factory_bot_rails', '~> 6.2.0'
+  gem 'faker', '~> 2.21.0'
+  gem 'ffaker'
+  gem 'pry', '~> 0.13.0'
+  gem 'pry-byebug', '~> 3.9.0'
+  gem 'rspec-rails', '~> 4.1.2'
 end
 
 group :development do
@@ -47,8 +53,11 @@ group :development do
   # gem "spring"
 end
 
+gem 'rswag-api'
+gem 'rswag-ui'
 gem 'annotate', '~> 3.2.0'
 gem 'figaro', '~> 1.2.0'
 gem 'jwt', '~> 2.4.1'
 gem 'auth_jwt_go', '~> 1.0.3'
 gem 'rack-cors', '~> 1.1.1'
+gem 'rest-client', '~> 2.1.0'
