@@ -43,5 +43,6 @@ Things you may want to cover:
 
 
 * Documentation
+  - generate rake rswag:specs:swaggerize
   - http://localhost:3000/api-docs
 * ...
