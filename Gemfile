@@ -46,3 +46,5 @@ group :development do
   # gem "spring"
 end
 
+gem 'annotate', '~> 3.2.0'
+gem 'figaro', '~> 1.2.0'
