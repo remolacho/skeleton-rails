@@ -39,6 +39,7 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'pry', '~> 0.13.0'
 end
 
 group :development do
@@ -48,3 +49,5 @@ end
 
 gem 'annotate', '~> 3.2.0'
 gem 'figaro', '~> 1.2.0'
+gem 'auth_jwt_go', '~> 1.0.3'
+

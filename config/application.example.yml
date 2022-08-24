@@ -4,9 +4,13 @@ development:
   DB_PASSWORD: postgres
   DB_NAME: skeleton
   DB_PORT: 5432
+  JWT_PASSWORD: test123
+  API_KEY: ''
 test:
   DB_HOSTNAME: localhost
   DB_USERNAME: postgres
   DB_PASSWORD: postgres
   DB_NAME: skeleton_test
   DB_PORT: 5432
+  JWT_PASSWORD: test123
+  API_KEY: ''
