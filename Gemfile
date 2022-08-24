@@ -48,13 +48,12 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.1.2'
 end
 
-group :development do
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+group :test do
+  gem 'database_cleaner', '~> 2.0.1'
 end
 
-gem 'rswag-api'
-gem 'rswag-ui'
+gem 'multi_json', '~> 1.11', '>= 1.11.2'
+gem 'rswag'
 gem 'annotate', '~> 3.2.0'
 gem 'figaro', '~> 1.2.0'
 gem 'jwt', '~> 2.4.1'
