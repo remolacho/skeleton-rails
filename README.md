@@ -3,8 +3,6 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-When download this repository and you is using rubymine pls delete de ./idea folder
-
 Things you may want to cover:
 
 * Ruby version
